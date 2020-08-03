@@ -1,122 +1,9 @@
-Skip to content
-More
-Search or jump to…
-
-U
-UCSD-SD-FSF-PT-06-2020-U-C
-Project overview
-Repository
-Files
-Commits
-Branches
-Tags
-Contributors
-Graph
-Compare
-Charts
-Issues
-0
-Merge Requests
-0
-CI / CD
-Operations
-Packages
-Wiki
-Snippets
-Members
-Collapse sidebar
-UCSD-Coding-Bootcamp
-UCSD-SD-FSF-PT-06-2020-U-C
-Repository
-master
-ucsd-sd-fsf-pt-06-2020-u-c
- 05-Third-Party-APIs
- 02-Homework
- Develop
- style.css
-Steven Jirjis's avatar
-week 5 content
-Steven Jirjis authored 1 week ago
-12b6f62d
- style.css 1.03 KB
- 
- 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
+
 textarea{
   background: transparent;
   border: none;
@@ -125,6 +12,7 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -132,35 +20,43 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+
 .description{
   white-space: pre-wrap;
 }
+
 .time-block{
   text-align: center;
   border-radius: 15px;
 }
+
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
+
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
+
 .past {
   background-color: #d3d3d3;
   color: white;
 }
+
 .present {
   background-color: #ff6961;
   color: white;
 }
+
 .future {
   background-color: #77dd77;
   color: white;
 }
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -172,7 +68,8 @@ textarea{
   transition: right ease 0.5s;
 }
 
-.saveBtn:hover {
+/* why's there an i in front of :hover? */
+.saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
   right: -10px;

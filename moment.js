@@ -39,4 +39,4 @@ function hourUpdate() {
     
 }
 
-var interval = setInterval(hourUpdate, 1500); // every 1.5 seconds
+var interval = setInterval(hourUpdate, 1500); // runs hourUpdate every 1.5 seconds
