@@ -1,6 +1,6 @@
 // displays the current date and time
 $(document).ready(function() {
-    $("#currentDay").text(moment().format('ddd MMM Do, YYYY, h:mm A'));
+    $("#currentDay").text(moment().format('dddd MMMM Do, YYYY, h:mm A'));
 });
 
 function hourUpdate() {

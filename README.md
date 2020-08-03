@@ -4,7 +4,7 @@
 
 A basic planner for a typical 9 to 5 work schedule. User's agenda will be saved in local storage once the save button is clicked. Past events will be in grey, future events in green, and present event in red.
 
-Try it here: https://johnnylieu.github.io/Day_Planner_HW5/
+Try it here: https://johnnylieu.github.io/Day_Planner/
 
 ## History
 
