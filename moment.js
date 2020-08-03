@@ -8,23 +8,24 @@ function hourUpdate() {
     console.log(currentHour); // working
 
     // a "for each" function to capture the number id in the time-block class
-    $(".time-block").each(function (){
+    $(".time-block").each(function() {
         var hourId = parseInt($(this).attr("id")); // gets the # of the id
         console.log(hourId); // working
-
+        console.log(this)
         if (hourId < currentHour) {
-            $(this).attr("class", "past"); // set attribute to past
+            $(this).addClass("past"); // set attribute to past
         };
-
         if (hourId > currentHour) {
-            $(this).attr("class", "future"); // future
+            $(this).removeClass("past");
+            $(this).removeClass("present");
+            $(this).addClass("future"); // future
         };
-
         if (hourId === currentHour) {
-            $(this).attr("class", "present"); // present
+            $(this).removeClass("past");
+            $(this).removeClass("future");
+            $(this).addClass("present"); // present
         }
-    });
-    
+    });   
 }
 
 var interval = setInterval(hourUpdate, 1500); // every 1.5 seconds

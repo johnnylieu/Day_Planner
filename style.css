@@ -69,7 +69,7 @@ textarea{
 }
 
 /* why's there an i in front of :hover? */
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
   right: -10px;
