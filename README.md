@@ -12,7 +12,7 @@ https://github.com/johnnylieu/Day_Planner_HW5/commits/master
 
 ## Screenshot
 
-![Day Planner](./Assets/05-third-party-apis-homework-demo.gif)
+![Day Planner](05-third-party-apis-homework-demo.gif)
 
 ## Credits
 Special thanks to to my tutor Bobbi Tarkany for pointing me in the right direction.
