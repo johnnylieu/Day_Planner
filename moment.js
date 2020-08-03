@@ -1,19 +1,7 @@
 // displays the current date and time
 $(document).ready(function() {
-    $("#currentDay").text(moment().format('ddd MMM Do, YYYY'));
+    $("#currentDay").text(moment().format('ddd MMM Do, YYYY, h:mm A'));
 });
-
-// variables in case i need them, ended up not having to use any
-var currentTime = $("#currentDay");
-var nine = $("#9");
-var ten = $("#description10");
-var eleven = $("#description11");
-var twelve = $("#description12");
-var one = $("#description13");
-var two = $("#description14");
-var three = $("#description15");
-var four = $("#description16");
-var five = $("#description17");
 
 function hourUpdate() {
     var currentHour = moment().hour(); // updates hour every 1.5 secs
