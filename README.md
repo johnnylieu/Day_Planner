@@ -14,7 +14,8 @@ https://github.com/johnnylieu/Day_Planner_HW5/commits/master
 
 https://github.com/johnnylieu/Day_Planner/commits/master
 
-I had create a new respository because the first one stopped committing properly ¯\_(ツ)_/¯
+I had create a new respository because the first one stopped committing properly
+¯\_(ツ)_/¯
 
 ## Screenshot
 
