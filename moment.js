@@ -14,6 +14,8 @@ function hourUpdate() {
         console.log(this)
         if (hourId < currentHour) {
             $(this).addClass("past"); // set attribute to past
+            $(this).removeClass("future");
+            $(this).removeClass("present");
         };
         if (hourId > currentHour) {
             $(this).removeClass("past");
